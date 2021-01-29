@@ -11,7 +11,7 @@ POST http://localhost:6000/docx2pdf
 Example to get PDF-data using Guzzle Client (php):
 `$response = $this->client->request(
                 'POST',
-                'http://localhost:6000',
+                'http://localhost:6000/docx2pdf',
                 ['multipart' => [
                     [
                         'name'     => 'upload_file',
